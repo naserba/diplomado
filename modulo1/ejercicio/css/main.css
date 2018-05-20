@@ -1,16 +1,22 @@
+
 body{
-	background-image:"img/fondo.jpg";
+	background-image:"../img/fondo.jpg";
 	width: 100%;
 	height: 768px;
-	color: #fff;
+	color: #8765;
+	font-family: 'Libre Baskerville', serif;
 }
 nav {
   padding: 0;
   margin: 0;
   position: absolute;
-  top: 12em;
+  top: 40%;
   left: 1em;
-  width: 10em
+  width: 100%;
+}
+nav a {
+	text-decoration:none;
+	color: #678;
 }
 footer{
 	padding: 0;
