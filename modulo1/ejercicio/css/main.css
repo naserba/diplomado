@@ -1,0 +1,21 @@
+body{
+	background-image:"img/fondo.jpg";
+	width: 100%;
+	height: 768px;
+	color: #fff;
+}
+nav {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 12em;
+  left: 1em;
+  width: 10em
+}
+footer{
+	padding: 0;
+	margin: 0;
+  	position: absolute;
+	top: 38em;
+  	left: 8em;
+}
