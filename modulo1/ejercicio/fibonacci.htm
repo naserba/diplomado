@@ -5,19 +5,36 @@
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya|Alice|Alike|Amiri|Antic+Slab|Anton|Brawler|Cairo|Cinzel|Cormorant+SC|Coustard|Crete+Round|Enriqueta|Gurajada|Karma|Kreon|Libre+Baskerville|Marcellus+SC|Metamorphous|Sansita|Syncopate|Vollkorn+SC" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body id="fibonacci">
 
 
 <nav>
-	<a href="menu.htm">Menu</a>
-	<a href="fibonacci.htm" onclick='alert("Estas siendo redireccionado a una nueva sección...")'>Fibonacci</a>
-	<a href="conclusiones.htm">Conclusiones</a>
+	<a href="inicio.htm" onclick="alert('Gracias por visitarnos, regresa pronto');">Regresar</a>
 </nav>
 
 
 <section id="body_copy">
-	<header><h1>Bienvenidos al Rincón de los Sabores</h1></header>
+	<header>
+		<h1>Números fibonacci</h1>
+	</header>
+	<article id="copy">
+		<section>
+		<h3>Secuencia</h3>
+		<p>
+			<script type="text/javascript">
+				secuencia(10);
+			</script>
+		</p>
+		<p>
+			Si deseas calcular una serie diferente, selecciona el número en la casilla y oprime calcular</br>
+			<input type="number" id="numero" value="" min="1" max="9999" minlength="1" maxlength="4">
+			<button onclick="fibonacci()">calcula</button>
+		</p>
+		</section>
+	</article>
+
 </section>
 
 

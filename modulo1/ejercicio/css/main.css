@@ -67,7 +67,7 @@ nav {
   display: inline-flex;
   
 }
-a {
+a{
 	text-decoration:none;
 	color: #fff;
 	align-content: center;
@@ -101,3 +101,39 @@ footer section{
 	float: right;
 	width: 50%
 }
+
+/*---fibonacci---*/
+#fibonacci
+{background-image: none;
+}
+#fibonacci input{
+	position: relative;
+  width: 70px;
+  padding: 16px 20px;
+  font-family: 'Syncopate', sans-serif;
+  border-color: #000;
+  border-width: .5px;
+  font-size: 16px;
+}
+#fibonacci button{
+	margin: 0;
+  position: absolute;
+  width: auto;
+  background-color:#000;
+  color: #fff;
+  padding: 16px 20px;
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+  display: inline-flex;
+}
+#fibonacci footer{
+	top: 0;
+}
+/*---fibonacci---*/
+#conclu
+{background-image: none;
+}
+#conclu footer{
+	top: 0;
+}
+
